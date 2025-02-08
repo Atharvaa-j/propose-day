@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #ff6b81;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.proposal-container {
+    text-align: center;
+    padding: 30px;
+}
+
+#proposalInput {
+    padding: 10px;
+    width: 60%;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#proposeButton {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#proposeButton:hover {
+    background-color: #ff3f61;
+}
+
+#proposalMessage {
+    font-size: 1.5em;
+    color: #ff6b81;
+    margin-top: 30px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1em;
+    color: #555;
+}
